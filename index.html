@@ -4,11 +4,119 @@
         <meta charset="UTF-8">
         <title>Unit-4 Game</title>
         <link rel "stylesheet" type="text/css" href="assets/css/reset.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     </head>
 
-    <body>
+    <body class="bg-Purple1">
+        <div class="container-fluid main-cont">
+            <div class="row">
+                <div class="col-xs-1 col-md-3"></div>
+
+                <div class="col-xs-10 col-md-6 bg-Purple2">
+                    <div class="row">
+                        <div class="col-xs-12 col-md-12 bg-Purple3">
+                            <heading>
+                                <h1 class="main-heading">
+                                    Crystal Collector
+                                </h1>
+                            </heading>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-xs-12 col-md-12">
+                            <p class="instructions">You are given a Target Number at the start of the game.</p>
+
+                            <p class="instructions">Your goal is to reach this number exactly by clicking the Cystals below.</p>
+            
+                            <p class="instructions">Each crystal is given a number at the start of the game. This number remains constant untill the game restarts.</p>
+            
+                            <p class="instructions">You are not shown the number associated with each Crystal.</p>
+            
+                            <p class="instructions">If you go over the Target Number you lose.</p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-xs-1 col-md-1"></div>
+
+                        <div class="col-xs-4 col-md-4 bg-Purple3">
+                            <h2>Target Number</h2>
+                        </div>
+
+                        <div class="col-xs-2 col-md-2"></div>
+
+                        <div class="col-xs-4 col-md-4 bg-Purple3">
+                            <h2>Score</h2>
+                        </div>
+
+                        <div class="col-xs-1 col-md-1"></div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-xs-1 col-md-1"></div>
+
+                        <div class="col-xs-4 col-md-4 bg-Purple1">
+                            <p id="displayWins">Wins: 0</p>
+                        </div>
+    
+                        <div class="col-xs-2 col-md-2"></div>
+    
+                        <div class="col-xs-4 col-md-4 bg-Purple1">
+                            <p id="displayLosses">Losses: 0</p>
+                        </div>
+    
+                        <div class="col-xs-1 col-md-1"></div>                      
+                    </div>
+
+                    <div class="row img-row-padding">
+                        <div class="col-md-2"></div>
+
+                        <div class="col-md-2 bg-White blue-crystal-padding">
+                            <img class="img-fluid" src="./assets/images/BlueCrystal.jpg" alt="Blue Cystal">
+                        </div>
+
+                        <div class="col-md-2 bg-White">
+                            <img class="img-fluid" src="./assets/images/GreenCrystal.jpg" alt="Green Crystal">
+                        </div>
+
+                        <div class="col-md-2 bg-White">
+                            <img class="img-fluid" src="./assets/images/RedCrystal.png" alt ="Red Crystals">
+                        </div>
+
+                        <div class="col-md-2 bg-White">
+                            <img class="img-fluid" src="./assets/images/YellowCrystal.png" alt-"Yellow Crystals">
+                        </div>
+
+                        <div class="col-md-2"></div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-xs-1 col-md-1"></div>
+
+                        <div class="col-xs-10 col-md-10 bg-Purple3">
+                            <h2>Current Number</h2>
+                        </div>
+
+                        <div class="col-xs-1 col-md-1"></div>
+                    </div>
+
+                    <div class="row standard-padding-bottom">
+                        <div class="col-xs-1 col-md-1"></div>
+
+                        <div class="col-xs-10 col-md-10 bg-Purple1">
+                            <p id="displayCurrentNumber">0</p>
+                        </div>
+
+                        <div class="col-xs-1 col-md-1"></div>
+                    </div>
+                </div>
+
+                <div class="col-xs-1 col-md-3"></div>
+            </div>
+        </div>
         <script type="text/javascript" src="assets/javascript/game.js"></script>
     </body>
 </html>

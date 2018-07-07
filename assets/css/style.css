@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+}
+
+.main-cont {
+    padding: 20px 0px 0px 0px;
+}
+
+.standard-padding-bottom {
+    padding-bottom: 20px;
+}
+
+.img-row-padding {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.blue-crystal-padding {
+    padding-top: 10px;
+}
+
+.bg-White {
+    background: white;
+}
+
+.bg-Purple1 {
+    background: #AA71A7;
+}
+
+.bg-Purple2 {
+    background: #8D478A;
+}
+
+.bg-Purple3 {
+    background: #71266E;
+}
