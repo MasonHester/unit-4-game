@@ -2,8 +2,16 @@ body {
     text-align: center;
 }
 
+h1 {
+    color: #eeeeee;
+}
+
+h2 {
+    color: #eeeeee;
+}
+
 .main-cont {
-    padding: 20px 0px 0px 0px;
+    padding: 20px 0px 20px 0px;
 }
 
 .standard-padding-bottom {
