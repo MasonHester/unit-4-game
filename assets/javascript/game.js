@@ -57,6 +57,7 @@ $(document).ready(function() {
 
         else if (currentNumberValue === targetNumberValue) {
             writeCurrent();
+            alert("You win!");
             gameOver = true;
             wins++;
             writeWin();
@@ -65,6 +66,7 @@ $(document).ready(function() {
 
         else if(currentNumberValue > targetNumberValue) {
             writeCurrent();
+            alert("You lost.");
             gameOver = true;
             losses++;
             writeLoss();
